@@ -1,0 +1,25 @@
+HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Operações JS</title>
+</head>
+
+<body>
+    <h1>Calculadora Simples de Operações</h1> 
+    <label for="num1">Número 1:</label> 
+    <input type="number" id="num1"><br><br> 
+
+    <label for="num2">Número 2:</label> 
+    <input type="number" id="num2"><br><br>
+
+    <button onclick="realizarOperacao('soma')">Somar</button>
+    <button onclick="realizarOperacao('divisao')">Dividir</button>
+    <button onclick="realizarOperacao('multplicacao')">Multplicar</button>
+    <h1 id="resultado">Resultado: </h1>
+    <script src="java.js"></script>
+</body>
+
+</html>
